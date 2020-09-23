@@ -8,24 +8,28 @@
     tools:context=".Accounts">
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/btnTeacherLogin"
         android:layout_width="209dp"
         android:layout_height="168dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="100dp"
         android:background="@drawable/teacher_account"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/btnStudentLogin"
         android:layout_width="209dp"
         android:layout_height="168dp"
         android:layout_marginTop="48dp"
         android:background="@drawable/student_account"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+        app:layout_constraintTop_toBottomOf="@+id/btnTeacherLogin"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView4"
