@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu">
+
+  <LinearLayout
+      android:id="@+id/linearLayout"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+      <TextView
+          android:id="@+id/textView6"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Accounts"
+          android:textColor="#797777"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.5"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+          <ImageButton
+              android:id="@+id/imageButton44"
+              android:layout_width="120dp"
+              android:layout_height="116dp"
+              android:background="@drawable/dashboard_backup"
+              app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+              app:layout_constraintStart_toEndOf="@+id/imageButton4"
+              app:layout_constraintTop_toBottomOf="@+id/imageButton42" />
+
+          <ImageButton
+              android:id="@+id/imageButton43"
+              android:layout_width="120dp"
+              android:layout_height="116dp"
+              android:layout_marginStart="10dp"
+              android:background="@drawable/dashboard_todotask"
+              app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+              app:layout_constraintHorizontal_bias="0.428"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toBottomOf="@+id/imageButton40" />
+
+          <ImageButton
+              android:id="@+id/imageButton45"
+              android:layout_width="120dp"
+              android:layout_height="116dp"
+              android:layout_marginEnd="10dp"
+              android:background="@drawable/dashbord_settings"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintTop_toBottomOf="@+id/imageButton41" />
+
+          <ImageButton
+              android:id="@+id/imageButton42"
+              android:layout_width="120dp"
+              android:layout_height="116dp"
+              android:background="@drawable/dashboard_homework"
+              app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+              app:layout_constraintStart_toEndOf="@+id/imageButton4"
+              app:layout_constraintTop_toBottomOf="@+id/imageButton38" />
+
+          <ImageButton
+              android:id="@+id/imageButton41"
+              android:layout_width="120dp"
+              android:layout_height="116dp"
+              android:layout_marginEnd="10dp"
+              android:background="@drawable/dashboard_onlineexams"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintTop_toBottomOf="@+id/imageButton39" />
+
+          <ImageButton
+              android:id="@+id/imageButton40"
+              android:layout_width="120dp"
+              android:layout_height="116dp"
+              android:layout_marginStart="10dp"
+              android:background="@drawable/dashboard_onlinesms"
+              app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+              app:layout_constraintHorizontal_bias="0.428"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toBottomOf="@+id/imageButton37" />
+
+          <ImageButton
+              android:id="@+id/imageButton38"
+              android:layout_width="120dp"
+              android:layout_height="116dp"
+              android:background="@drawable/dashboard_staff"
+              app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+              app:layout_constraintStart_toEndOf="@+id/imageButton4"
+              app:layout_constraintTop_toBottomOf="@+id/imageButton29" />
+
+          <ImageButton
+              android:id="@+id/imageButton37"
+              android:layout_width="120dp"
+              android:layout_height="116dp"
+              android:layout_marginStart="10dp"
+              android:background="@drawable/dashboard_enquiry"
+              app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+              app:layout_constraintHorizontal_bias="0.428"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toBottomOf="@+id/imageButton28" />
+
+          <ImageButton
+              android:id="@+id/imageButton39"
+              android:layout_width="120dp"
+              android:layout_height="116dp"
+              android:layout_marginEnd="10dp"
+              android:background="@drawable/dashboard_giantreports"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintTop_toBottomOf="@+id/imageButton30" />
+
+          <ImageButton
+              android:id="@+id/imageButton30"
+              android:layout_width="120dp"
+              android:layout_height="116dp"
+              android:layout_marginEnd="10dp"
+              android:background="@drawable/dashboard_performance"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
+
+          <ImageButton
+              android:id="@+id/imageButton29"
+              android:layout_width="120dp"
+              android:layout_height="116dp"
+              android:background="@drawable/dashboard_income"
+              app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+              app:layout_constraintStart_toEndOf="@+id/imageButton4"
+              app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+
+          <ImageButton
+              android:id="@+id/imageButton28"
+              android:layout_width="120dp"
+              android:layout_height="116dp"
+              android:layout_marginStart="10dp"
+              android:background="@drawable/dashboard_tutionfees"
+              app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+              app:layout_constraintHorizontal_bias="0.428"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toBottomOf="@+id/imageButton4" />
+
+          <ImageButton
+              android:id="@+id/imageButton4"
+              android:layout_width="120dp"
+              android:layout_height="116dp"
+              android:layout_marginStart="10dp"
+              android:background="@drawable/dashboard_batches"
+              app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+              app:layout_constraintHorizontal_bias="0.5"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent" />
+
+          <ImageButton
+              android:id="@+id/imageButton2"
+              android:layout_width="120dp"
+              android:layout_height="116dp"
+              android:background="@drawable/dashboard_students"
+              app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+              app:layout_constraintHorizontal_bias="0.5"
+              app:layout_constraintStart_toEndOf="@+id/imageButton4"
+              tools:layout_editor_absoluteY="0dp" />
+
+          <ImageButton
+              android:id="@+id/imageButton3"
+              android:layout_width="120dp"
+              android:layout_height="116dp"
+              android:layout_marginEnd="10dp"
+              android:background="@drawable/dashboard_attendance"
+              app:layout_constraintEnd_toEndOf="parent"
+              tools:layout_editor_absoluteY="0dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+          <ImageButton
+              android:id="@+id/imageButton47"
+              android:layout_width="412dp"
+              android:layout_height="91dp"
+              android:background="@drawable/bottumlistback"
+              tools:layout_editor_absoluteX="-1dp"
+              tools:layout_editor_absoluteY="1dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+      </LinearLayout>
+    </ScrollView>
+
+  </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
